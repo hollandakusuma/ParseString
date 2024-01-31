@@ -85,8 +85,8 @@ Serial.println(speed, 2);
 
 // <Course Over Ground>
 b=result.indexOf(',',a+1);
-speed = result.substring(a+1,b).toFloat();
-Serial.println(speed,1);
+degree = result.substring(a+1,b).toFloat();
+Serial.println(degree,1);
 
 // <Fix Mode>
 a=result.indexOf(',',b+1);
